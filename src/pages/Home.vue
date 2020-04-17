@@ -1,15 +1,17 @@
 <template>
   <div>
     <Home-Nav></Home-Nav>
+    <Home-Swiper></Home-Swiper>
   </div>
 </template>
 
 <script>
 import HomeNav from './components/Nav'
+import HomeSwiper from './components/Swiper'
 export default {
   name: 'Home',
   components: {
-    HomeNav
+    HomeNav, HomeSwiper
   },
   mounted () {
     // this.$i18n.locale = 'zh-CN'

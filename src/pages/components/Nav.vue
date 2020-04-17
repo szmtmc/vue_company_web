@@ -12,8 +12,8 @@
           <li>{{$t('lang.contact')}}</li>
         </ul>
         <ul class="language clear">
-          <li @click="changeCh()" :class="{fff:LanIndex===1}">中文</li>
-          <li @click="changeEn()" :class="{fff:LanIndex===2}">ENGLISH</li>
+          <li @click="changeCh()" :class="{fff:LanIndex===2}">中文</li>
+          <li @click="changeEn()" :class="{fff:LanIndex===1}">ENGLISH</li>
         </ul>
         <span class="more" @click="downmenuClick()">三</span>
       </nav>
@@ -24,8 +24,8 @@
         <li>{{$t('lang.about')}}</li>
         <li>{{$t('lang.join')}}</li>
         <li>{{$t('lang.contact')}}</li>
-        <li @click="changeCh()" :class="{fff:LanIndex===1}">中文</li>
-        <li @click="changeEn()" :class="{fff:LanIndex===2}">ENGLISH</li>
+        <li @click="changeCh()" :class="{fff:LanIndex===2}">中文</li>
+        <li @click="changeEn()" :class="{fff:LanIndex===1}">ENGLISH</li>
       </ul>
     </nav>
   </div>

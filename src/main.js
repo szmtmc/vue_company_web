@@ -5,10 +5,13 @@ import App from './App'
 import router from './router'
 import VueI18n from 'vue-i18n'
 import 'css/reset.css'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+
+import 'swiper/dist/css/swiper.css'
 
 Vue.use(VueI18n)
 Vue.config.productionTip = false
-
+Vue.use(VueAwesomeSwiper)
 const i18n = new VueI18n({
   locale: 'zh-CN',
   messages: {
