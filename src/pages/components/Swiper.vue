@@ -119,4 +119,19 @@ export default {
     top: 300px;
   }
 }
+@media screen and (max-width: 496px) {
+  .banner-wrap {
+    height: 586px;
+  }
+  .banner-info {
+    top: 260px;
+  }
+  .swiper-pagination {
+    bottom: 340px;
+  }
+  .banner-info h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
 </style>

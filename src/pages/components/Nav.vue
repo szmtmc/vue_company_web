@@ -142,7 +142,12 @@ header li:hover,
 @media screen and (min-width: 767px) {
   .nav-down {
     display: none;
-    color: red;
+  }
+}
+@media screen and (max-width: 496px) {
+  .header .navbar-brand {
+    float: left;
+    background-color: #043985;
   }
 }
 </style>
