@@ -4,6 +4,7 @@
     <Home-Swiper></Home-Swiper>
     <Home-Product></Home-Product>
     <Home-Partner></Home-Partner>
+    <Home-Join></Home-Join>
   </div>
 </template>
 
@@ -12,10 +13,11 @@ import HomeNav from './components/Nav'
 import HomeSwiper from './components/Swiper'
 import HomeProduct from './components/Product'
 import HomePartner from './components/Partner'
+import HomeJoin from './components/Join'
 export default {
   name: 'Home',
   components: {
-    HomeNav, HomeSwiper, HomeProduct, HomePartner
+    HomeNav, HomeSwiper, HomeProduct, HomePartner, HomeJoin
   },
   mounted () {
     // this.$i18n.locale = 'zh-CN'

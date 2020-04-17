@@ -104,6 +104,7 @@ export default {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  padding-bottom: 40px;
 }
 @media screen and (max-width: 1175px) {
   .row {
@@ -129,7 +130,7 @@ export default {
     height: 84.2px !important;
   }
 }
-@media screen and (max-width: 496px) {
+@media screen and (max-width: 767px) {
   .row {
     max-width: 70%;
   }
