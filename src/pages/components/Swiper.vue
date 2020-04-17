@@ -6,27 +6,27 @@
           <div class="imgwrapepr">
             <div class="banner-info">
               <h1>{{$t('lang.slide1h1')}}</h1>
-              <p>{{$t('lang.slide1p')}}</p>
+              <!-- <p>{{$t('lang.slide1p')}}</p> -->
             </div>
-            <img class="bannerimg" src="http://www.yuanchin.tech/style/home/img/slides/slide-1.jpg" />
+            <img class="bannerimg" src="../../assets/image/slide-1.jpg" />
           </div>
         </swiper-slide>
         <swiper-slide>
           <div class="imgwrapepr">
             <div class="banner-info">
               <h1>{{$t('lang.slide2h1')}}</h1>
-              <p>{{$t('lang.slide2p')}}</p>
+              <!-- <p>{{$t('lang.slide2p')}}</p> -->
             </div>
-            <img class="bannerimg" src="http://www.yuanchin.tech/style/home/img/slides/slide-2.jpg" />
+            <img class="bannerimg" src="../../assets/image/slide-2.jpg" />
           </div>
         </swiper-slide>
         <swiper-slide>
           <div class="imgwrapepr">
             <div class="banner-info">
               <h1>{{$t('lang.slide3h1')}}</h1>
-              <p>{{$t('lang.slide3p')}}</p>
+              <!-- <p>{{$t('lang.slide3p')}}</p> -->
             </div>
-            <img class="bannerimg" src="http://www.yuanchin.tech/style/home/img/slides/slide-3.jpg" />
+            <img class="bannerimg" src="../../assets/image/slide-3.jpg" />
           </div>
         </swiper-slide>
         <div class="swiper-pagination" slot="pagination"></div>
@@ -97,7 +97,7 @@ export default {
   font-size: 17px;
   font-weight: 400;
 }
-.swiper-pagination {
+.wrapper >>> .swiper-pagination {
   position: absolute;
   bottom: 180px;
 }

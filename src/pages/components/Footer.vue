@@ -2,8 +2,9 @@
   <div class="container">
     <p>
       <small>
-        Copyright © 2007-2020 YUANCHIN
-        <sup>®</sup> TECH, All rights reserved. 蜀ICP备14019708号-2
+        Copyright © 2013-2020 BAITTON
+        <sup>®</sup>
+        All rights reserved. 粤ICP备18084210号-1
       </small>
     </p>
   </div>

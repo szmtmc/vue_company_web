@@ -6,10 +6,10 @@
           <img height="32" src="http://www.yuanchin.tech/style/home/img/logo.png" />
         </a>
         <ul class="menu clear">
-          <li>{{$t('lang.solution')}}</li>
+          <router-link tag="li" to="/solution">{{$t('lang.solution')}}</router-link>
           <li>{{$t('lang.about')}}</li>
           <li>{{$t('lang.join')}}</li>
-          <li>{{$t('lang.contact')}}</li>
+          <router-link tag="li" to="/contact">{{$t('lang.contact')}}</router-link>
         </ul>
         <ul class="language clear">
           <li @click="changeCh()" :class="{fff:LanIndex===2}">中文</li>
@@ -20,10 +20,10 @@
     </header>
     <nav class="nav-down" v-show="downmenuShow">
       <ul class="downmenu clear">
-        <li>{{$t('lang.solution')}}</li>
+        <router-link tag="li" to="/solution">{{$t('lang.solution')}}</router-link>
         <li>{{$t('lang.about')}}</li>
         <li>{{$t('lang.join')}}</li>
-        <li>{{$t('lang.contact')}}</li>
+        <router-link tag="li" to="/contact">{{$t('lang.contact')}}</router-link>
         <li @click="changeCh()" :class="{fff:LanIndex===2}">中文</li>
         <li @click="changeEn()" :class="{fff:LanIndex===1}">ENGLISH</li>
       </ul>
@@ -40,7 +40,6 @@ export default {
     }
   },
   mounted () {
-    console.log(this.$i18n.locale)
     if (this.$i18n.locale === 'zh-CN') {
       this.LanIndex = 1
     } else {

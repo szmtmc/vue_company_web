@@ -2,24 +2,36 @@
   <div class="container">
     <div class="card-deck services">
       <div class="card border-0 rounded-0">
-        <img class="w-100" src="http://www.yuanchin.tech/style/home/img/index-service-1.png" />
+        <img class="w-100" src="../../assets/image/contact-1.jpg"  height="241.97px"/>
         <div class="card-body text-center py-5">
-          <h5 class="card-title font-weight-bold">{{$t('lang.prod1h1')}}</h5>
-          <p class="card-text">{{$t('lang.prod1p')}}</p>
+          <h5 class="card-title font-weight-bold">{{$t('lang.add1h1')}}</h5>
+          <p class="card-text">
+            {{$t('lang.add1e1')}}
+            <br />
+            {{$t('lang.add1p1')}}
+          </p>
         </div>
       </div>
       <div class="card border-0 rounded-0">
-        <img class="w-100" src="http://www.yuanchin.tech/style/home/img/index-service-2.png" />
+        <img class="w-100" src="../../assets/image/contact-2.jpg" />
         <div class="card-body text-center py-5">
-          <h5 class="card-title font-weight-bold">{{$t('lang.prod2h1')}}</h5>
-          <p class="card-text">{{$t('lang.prod2p')}}</p>
+          <h5 class="card-title font-weight-bold">{{$t('lang.add2h1')}}</h5>
+          <p class="card-text">
+            {{$t('lang.add2e1')}}
+            <br />
+            {{$t('lang.add2p1')}}
+          </p>
         </div>
       </div>
       <div class="card border-0 rounded-0">
-        <img class="w-100" src="http://www.yuanchin.tech/style/home/img/index-service-3.png" />
+        <img class="w-100" src="../../assets/image/contact-3.jpg" />
         <div class="card-body text-center py-5">
-          <h5 class="card-title font-weight-bold">{{$t('lang.prod3h1')}}</h5>
-          <p class="card-text">{{$t('lang.prod3p')}}</p>
+          <h5 class="card-title font-weight-bold">{{$t('lang.add3h1')}}</h5>
+          <p class="card-text">
+            {{$t('lang.add3e1')}}
+            <br />
+            {{$t('lang.add3p1')}}
+          </p>
         </div>
       </div>
     </div>
@@ -32,7 +44,7 @@ export default {
 </script>
 <style scoped>
 .container {
-  max-width: 1450px;
+  max-width: 1150px;
   margin: 0 auto;
   margin-top: 50px;
 }
@@ -92,6 +104,7 @@ img {
   margin-bottom: 0;
 }
 .card-text {
+  line-height: 20px;
   padding-bottom: 30px;
 }
 </style>
