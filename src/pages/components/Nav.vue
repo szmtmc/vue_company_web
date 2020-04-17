@@ -73,7 +73,12 @@ export default {
   color: #fff !important;
 }
 header {
+  position: fixed;
   background: #043985;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  right: 0;
   color: rgba(255, 255, 255, 0.5);
 }
 .navbar-brand {
@@ -118,6 +123,11 @@ header {
   padding: 10px;
 }
 .nav-down {
+  z-index: 100;
+  position: fixed;
+  top: 64px;
+  left: 0;
+  right: 0;
   background: #043985;
   color: rgba(255, 255, 255, 0.5);
 }

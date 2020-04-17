@@ -2,18 +2,18 @@
   <div class="container">
     <div class="inner">
       <h2>
-        加入
+        {{$t('lang.joinus')}}
         <strong>
-          远锦YUANCHIN
+          {{$t('lang.us')}}
           <sup>®</sup>
         </strong>
       </h2>
       <hr />
-      <p>互联网已成为这个时代的基础设施，利用不断演进的技术，让我们一起构建更加光辉灿烂的未来。</p>
+      <p>{{$t('lang.joinp')}}</p>
       <p>
-        <a href="mailto:712104878@qq.com" class="submit">投递简历</a>
+        <a href="mailto:712104878@qq.com" class="submit">{{$t('lang.submit')}}</a>
       </p>
-      <p class="small">为便于检索，请按统一格式填写邮件标题：职位-姓名，如：产品经理-张潇潇</p>
+      <p class="small">{{$t('lang.joinp2')}}</p>
     </div>
   </div>
 </template>

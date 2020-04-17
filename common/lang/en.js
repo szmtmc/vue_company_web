@@ -16,5 +16,10 @@ export const lang = {
   prod3h1: 'AI-integrated Development',
   prod3p: 'Let the AI technology from Google, Amazon and Baidu pave your road to success.',
   partnerh2: 'Our Partners',
-  partnerp: 'Logo display of well-known enterprises'
+  partnerp: 'Logo display of well-known enterprises',
+  joinus: 'Be Part of Our',
+  us: 'YUANCHIN',
+  joinp: 'The Internet represents the infrastructure of this era. Mastering evolving technologies, we together are to create an extraordinary future.',
+  submit: 'Submit CV',
+  joinp2: 'To ease later contact, please follow the format: Position - Name, e.g. "Product Manager - John Smith"'
 }
