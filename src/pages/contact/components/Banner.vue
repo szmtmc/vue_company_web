@@ -2,7 +2,7 @@
   <div class="container">
     <div class="inner" v-show="ch">
       <h2>联系我们</h2>
-      <hr />
+      <hr/>
       <p>我们珍惜您每一次的联系，冀望将来光辉的前景。</p>
     </div>
     <div class="inner" v-show="!ch">
@@ -24,7 +24,7 @@ export default {
 </script>
 <style scoped>
 .container {
-  background-image: url("../../assets/image/contact-subtitle-bg.jpg");
+  background-image: url("../../../assets/image/contact-subtitle-bg.jpg");
   background-position: top center;
   background-size: cover;
   background-attachment: fixed;

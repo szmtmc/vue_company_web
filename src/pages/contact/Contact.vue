@@ -8,10 +8,10 @@
 </template>
 
 <script>
-import HomeNav from './components/Nav'
+import HomeNav from '../common/Nav'
 import HomeBanner from './components/Banner'
 import HomeProduct1 from './components/ContactItem'
-import HomeFooter from './components/Footer'
+import HomeFooter from '../common/Footer'
 
 export default {
   name: 'Home',

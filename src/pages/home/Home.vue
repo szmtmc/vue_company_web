@@ -12,14 +12,14 @@
 </template>
 
 <script>
-import HomeNav from './components/Nav'
+import HomeNav from '../common/Nav'
 import HomeSwiper from './components/Swiper'
 import HomeProduct1 from './components/Product_1'
 import HomeProduct2 from './components/Product_2'
 import HomeProduct3 from './components/Product_3'
 import HomePartner from './components/Partner'
 import HomeJoin from './components/Join'
-import HomeFooter from './components/Footer'
+import HomeFooter from '../common/Footer'
 
 export default {
   name: 'Home',
