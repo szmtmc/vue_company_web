@@ -14,5 +14,7 @@ export const lang = {
   prod2h1: '企业级业务支撑系统',
   prod2p: '5G和云计算技术将重新定义企业的运行方式',
   prod3h1: 'AI集成开发',
-  prod3p: '让谷歌、亚马逊和百度的AI技术服务于您'
+  prod3p: '让谷歌、亚马逊和百度的AI技术服务于您',
+  partnerh2: '合作伙伴',
+  partnerp: '很荣幸，能与众多行业优秀客户共同成长'
 }

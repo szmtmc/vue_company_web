@@ -14,5 +14,7 @@ export const lang = {
   prod2h1: 'Enterprise Operation Support System',
   prod2p: '5G and cloud computing will revolutionize how business operates.',
   prod3h1: 'AI-integrated Development',
-  prod3p: 'Let the AI technology from Google, Amazon and Baidu pave your road to success.'
+  prod3p: 'Let the AI technology from Google, Amazon and Baidu pave your road to success.',
+  partnerh2: 'Our Partners',
+  partnerp: 'Logo display of well-known enterprises'
 }

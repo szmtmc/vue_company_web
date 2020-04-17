@@ -1,7 +1,7 @@
 <template>
   <div class="container">
-    <h2 class="text-center">Our Partners</h2>
-    <p class="text-center">Logo display of well-known enterprises</p>
+    <h2 class="text-center">{{$t('lang.partnerh2')}}</h2>
+    <p class="text-center">{{$t('lang.partnerp')}}</p>
     <div class="row">
       <div class="item">
         <img class="w-100" src="http://www.yuanchin.tech/style/home/img/clients/logo-1.jpg" />
@@ -129,16 +129,16 @@ export default {
     height: 84.2px !important;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 496px) {
   .row {
-    max-width: 80%;
+    max-width: 70%;
   }
   .item {
-    width: 33.33333%;
+    width: 33.3%;
   }
   img {
-    width: 90px;
-    height: 47.36px;
+    width: 90px !important;
+    height: 47.36px !important;
   }
 }
 </style>
