@@ -8,7 +8,7 @@
         <ul class="menu clear">
           <router-link tag="li" to="/solution">{{$t('lang.solution')}}</router-link>
           <router-link tag="li" to="/about">{{$t('lang.about')}}</router-link>
-          <li>{{$t('lang.join')}}</li>
+          <router-link tag="li" to="/join">{{$t('lang.join')}}</router-link>
           <router-link tag="li" to="/contact">{{$t('lang.contact')}}</router-link>
         </ul>
         <ul class="language clear">
@@ -22,7 +22,7 @@
       <ul class="downmenu clear">
         <router-link tag="li" to="/solution">{{$t('lang.solution')}}</router-link>
         <router-link tag="li" to="/about">{{$t('lang.about')}}</router-link>
-        <li>{{$t('lang.join')}}</li>
+        <router-link tag="li" to="/join">{{$t('lang.join')}}</router-link>
         <router-link tag="li" to="/contact">{{$t('lang.contact')}}</router-link>
         <li @click="changeCh()" :class="{fff:LanIndex===2}">中文</li>
         <li @click="changeEn()" :class="{fff:LanIndex===1}">ENGLISH</li>
