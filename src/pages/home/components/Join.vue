@@ -24,7 +24,7 @@ export default {
 </script>
 <style scoped>
 .container {
-  background-image: url("http://www.yuanchin.tech/style/home/img/office.jpg");
+  background-image: url("../../../assets/image/office.jpg");
   background-position: top center;
   background-size: cover;
   background-attachment: fixed;

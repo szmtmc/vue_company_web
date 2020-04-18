@@ -2,21 +2,21 @@
   <div class="container">
     <div class="card-deck services">
       <div class="card border-0 rounded-0">
-        <img class="w-100" src="http://www.yuanchin.tech/style/home/img/index-service-1.png" />
+        <img class="w-100" src="../../../assets/image/index-service-1.png" />
         <div class="card-body text-center py-5">
           <h5 class="card-title font-weight-bold">{{$t('lang.p1h1')}}</h5>
           <p class="card-text">{{$t('lang.p1p1')}}</p>
         </div>
       </div>
       <div class="card border-0 rounded-0">
-        <img class="w-100" src="http://www.yuanchin.tech/style/home/img/index-service-2.png" />
+        <img class="w-100" src="../../../assets/image/index-service-2.png" />
         <div class="card-body text-center py-5">
           <h5 class="card-title font-weight-bold">{{$t('lang.p2h1')}}</h5>
           <p class="card-text">{{$t('lang.p2p1')}}</p>
         </div>
       </div>
       <div class="card border-0 rounded-0">
-        <img class="w-100" src="http://www.yuanchin.tech/style/home/img/index-service-3.png" />
+        <img class="w-100" src="../../../assets/image/index-service-3.png" />
         <div class="card-body text-center py-5">
           <h5 class="card-title font-weight-bold">{{$t('lang.p3h1')}}</h5>
           <p class="card-text">{{$t('lang.p3p1')}}</p>

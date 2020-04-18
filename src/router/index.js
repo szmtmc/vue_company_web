@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/pages/home/Home'
 import Contact from '@/pages/contact/Contact'
+import About from '@/pages/about/About'
 
 Vue.use(Router)
 
@@ -15,6 +16,10 @@ export default new Router({
       path: '/contact',
       name: 'Contact',
       component: Contact
+    }, {
+      path: '/about',
+      name: 'About',
+      component: About
     }
   ],
   scrollBehavior (to, from, savePosition) {
