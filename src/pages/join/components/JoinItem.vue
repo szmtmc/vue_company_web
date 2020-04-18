@@ -34,7 +34,7 @@ export default {
 .container {
   max-width: 1150px;
   margin: 0 auto;
-  margin: 50px 0;
+  padding: 50px 0;
 }
 @media screen and (min-width: 576px) {
   .card-deck {

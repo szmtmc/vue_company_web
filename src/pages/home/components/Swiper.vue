@@ -127,7 +127,7 @@ export default {
     top: 260px;
   }
   .swiper-pagination {
-    bottom: 340px;
+    bottom: 340px !important;
   }
   .banner-info h1 {
     font-size: 30px;

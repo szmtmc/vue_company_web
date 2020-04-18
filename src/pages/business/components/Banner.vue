@@ -1,9 +1,9 @@
 <template>
   <div class="container">
     <div class="inner">
-      <h2>加入我们</h2>
+      <h2>业务&服务</h2>
       <div class="divider my-3"></div>
-      <p>互联网已成为这个时代的基础设施，利用不断演进的技术，让我们一起构建光辉灿烂的未来。</p>
+      <p>我们从企业业务实际出发，提出富有前瞻性的解决方案，并将策略和执行结合起来。</p>
     </div>
   </div>
 </template>

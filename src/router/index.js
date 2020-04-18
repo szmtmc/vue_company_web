@@ -4,6 +4,7 @@ import Home from '@/pages/home/Home'
 import Contact from '@/pages/contact/Contact'
 import About from '@/pages/about/About'
 import Join from '@/pages/join/Join'
+import Business from '@/pages/business/Business'
 
 Vue.use(Router)
 
@@ -25,6 +26,10 @@ export default new Router({
       path: '/join',
       name: 'Join',
       component: Join
+    }, {
+      path: '/business',
+      name: 'Business',
+      component: Business
     }
   ],
   scrollBehavior (to, from, savePosition) {

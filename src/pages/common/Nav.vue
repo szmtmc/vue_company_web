@@ -3,29 +3,23 @@
     <header class="header clear">
       <nav class="navbar">
         <a class="navbar-brand" href="/">
-          <img height="32" src="http://www.yuanchin.tech/style/home/img/logo.png" />
+          <img height="32" src="../../assets/image/logo.png" />
         </a>
         <ul class="menu clear">
-          <router-link tag="li" to="/solution">{{$t('lang.solution')}}</router-link>
+          <router-link tag="li" to="/business">{{$t('lang.solution')}}</router-link>
           <router-link tag="li" to="/about">{{$t('lang.about')}}</router-link>
           <router-link tag="li" to="/join">{{$t('lang.join')}}</router-link>
           <router-link tag="li" to="/contact">{{$t('lang.contact')}}</router-link>
-        </ul>
-        <ul class="language clear">
-          <li @click="changeCh()" :class="{fff:LanIndex===2}">中文</li>
-          <li @click="changeEn()" :class="{fff:LanIndex===1}">ENGLISH</li>
         </ul>
         <span class="more" @click="downmenuClick()">三</span>
       </nav>
     </header>
     <nav class="nav-down" v-show="downmenuShow">
       <ul class="downmenu clear">
-        <router-link tag="li" to="/solution">{{$t('lang.solution')}}</router-link>
+        <router-link tag="li" to="/business">{{$t('lang.solution')}}</router-link>
         <router-link tag="li" to="/about">{{$t('lang.about')}}</router-link>
         <router-link tag="li" to="/join">{{$t('lang.join')}}</router-link>
         <router-link tag="li" to="/contact">{{$t('lang.contact')}}</router-link>
-        <li @click="changeCh()" :class="{fff:LanIndex===2}">中文</li>
-        <li @click="changeEn()" :class="{fff:LanIndex===1}">ENGLISH</li>
       </ul>
     </nav>
   </div>
@@ -35,28 +29,14 @@ export default {
   name: 'Nav',
   data () {
     return {
-      downmenuShow: false,
-      LanIndex: 1
+      downmenuShow: false
     }
   },
   mounted () {
-    if (this.$i18n.locale === 'zh-CN') {
-      this.LanIndex = 1
-    } else {
-      this.LanIndex = 2
-    }
   },
   methods: {
     downmenuClick () {
       this.downmenuShow = !this.downmenuShow
-    },
-    changeEn () {
-      this.$i18n.locale = 'en-US'
-      this.LanIndex = 2
-    },
-    changeCh () {
-      this.$i18n.locale = 'zh-CN'
-      this.LanIndex = 1
     }
   }
 
@@ -95,7 +75,7 @@ header {
   border-style: none;
 }
 .menu {
-  float: left;
+  float: right;
 }
 .menu li {
   float: left;
@@ -103,15 +83,8 @@ header {
   font-size: 15px;
   cursor: pointer;
 }
-.language {
+.nav-down ul {
   float: right;
-  margin-right: 10px;
-}
-.language li {
-  float: left;
-  padding: 24px 5px;
-  font-size: 15px;
-  cursor: pointer;
 }
 .more {
   display: none;
@@ -131,8 +104,8 @@ header {
   color: rgba(255, 255, 255, 0.5);
 }
 .downmenu li {
-  padding: 8px;
-  font-size: 15px;
+  padding: 10px;
+  font-size: 16px;
   cursor: pointer;
 }
 header li:hover,
