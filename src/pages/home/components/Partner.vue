@@ -130,7 +130,7 @@ export default {
     height: 84.2px !important;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 496px) {
   .row {
     max-width: 70%;
   }

@@ -85,6 +85,7 @@ export default {
     display: none;
   }
 }
+
 .main h2 {
   font-size: 36px;
   font-weight: bolder;
@@ -110,5 +111,14 @@ export default {
 .box img {
   width: 450px;
   height: 490px;
+}
+@media screen and (max-width: 496px) {
+  .main {
+    padding: 10%;
+  }
+  .main-inner {
+    max-width: 90% !important;
+    right: 10%;
+  }
 }
 </style>
