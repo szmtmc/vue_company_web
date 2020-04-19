@@ -6,6 +6,7 @@
     <Home-Product :list="list2"></Home-Product>
     <Home-Product :list="list3"></Home-Product>
     <Home-Partner></Home-Partner>
+    <Home-Expert></Home-Expert>
     <Home-Join></Home-Join>
     <Home-Footer></Home-Footer>
   </div>
@@ -16,13 +17,14 @@ import HomeNav from '../common/Nav'
 import HomeSwiper from './components/Swiper'
 import HomeProduct from '../common/Product'
 import HomePartner from './components/Partner'
+import HomeExpert from './components/Expert'
 import HomeJoin from './components/Join'
 import HomeFooter from '../common/Footer'
 
 export default {
   name: 'Home',
   components: {
-    HomeNav, HomeSwiper, HomeProduct, HomePartner, HomeJoin, HomeFooter
+    HomeNav, HomeSwiper, HomeProduct, HomePartner, HomeJoin, HomeFooter, HomeExpert
   },
   data () {
     return {

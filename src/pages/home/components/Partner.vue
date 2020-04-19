@@ -1,86 +1,76 @@
 <template>
   <div class="container">
-    <h2 class="text-center">{{$t('lang.partnerh2')}}</h2>
-    <p class="text-center">{{$t('lang.partnerp')}}</p>
+    <h2 class="text-center">合作伙伴</h2>
+    <p class="text-center">很荣幸，能与众多行业优秀客户共同成长</p>
     <div class="row">
-      <div class="item">
-        <img class="w-100" src="http://www.yuanchin.tech/style/home/img/clients/logo-1.jpg" />
-      </div>
-      <div class="item">
-        <img class="w-100" src="http://www.yuanchin.tech/style/home/img/clients/logo-2.jpg" />
-      </div>
-      <div class="item">
-        <img class="w-100" src="http://www.yuanchin.tech/style/home/img/clients/logo-3.jpg" />
-      </div>
-      <div class="item">
-        <img class="w-100" src="http://www.yuanchin.tech/style/home/img/clients/logo-4.jpg" />
-      </div>
-      <div class="item">
-        <img class="w-100" src="http://www.yuanchin.tech/style/home/img/clients/logo-5.jpg" />
-      </div>
-      <div class="item">
-        <img class="w-100" src="http://www.yuanchin.tech/style/home/img/clients/logo-6.jpg" />
-      </div>
-      <div class="item">
-        <img class="w-100" src="http://www.yuanchin.tech/style/home/img/clients/logo-7.jpg" />
-      </div>
-      <div class="item">
-        <img class="w-100" src="http://www.yuanchin.tech/style/home/img/clients/logo-8.jpg" />
-      </div>
-      <div class="item">
-        <img class="w-100" src="http://www.yuanchin.tech/style/home/img/clients/logo-9.jpg" />
-      </div>
-      <div class="item">
-        <img class="w-100" src="http://www.yuanchin.tech/style/home/img/clients/logo-10.jpg" />
-      </div>
-      <div class="item">
-        <img class="w-100" src="http://www.yuanchin.tech/style/home/img/clients/logo-11.jpg" />
-      </div>
-      <div class="item">
-        <img class="w-100" src="http://www.yuanchin.tech/style/home/img/clients/logo-12.jpg" />
-      </div>
-      <div class="item">
-        <img class="w-100" src="http://www.yuanchin.tech/style/home/img/clients/logo-13.jpg" />
-      </div>
-      <div class="item">
-        <img class="w-100" src="http://www.yuanchin.tech/style/home/img/clients/logo-14.jpg" />
-      </div>
-      <div class="item">
-        <img class="w-100" src="http://www.yuanchin.tech/style/home/img/clients/logo-15.jpg" />
-      </div>
-      <div class="item">
-        <img class="w-100" src="http://www.yuanchin.tech/style/home/img/clients/logo-16.jpg" />
-      </div>
-      <div class="item">
-        <img class="w-100" src="http://www.yuanchin.tech/style/home/img/clients/logo-17.jpg" />
-      </div>
-      <div class="item">
-        <img class="w-100" src="http://www.yuanchin.tech/style/home/img/clients/logo-18.jpg" />
-      </div>
-      <div class="item">
-        <img class="w-100" src="http://www.yuanchin.tech/style/home/img/clients/logo-19.jpg" />
-      </div>
-      <div class="item">
-        <img class="w-100" src="http://www.yuanchin.tech/style/home/img/clients/logo-20.jpg" />
-      </div>
-      <div class="item">
-        <img class="w-100" src="http://www.yuanchin.tech/style/home/img/clients/logo-21.jpg" />
-      </div>
-      <div class="item">
-        <img class="w-100" src="http://www.yuanchin.tech/style/home/img/clients/logo-22.jpg" />
-      </div>
-      <div class="item">
-        <img class="w-100" src="http://www.yuanchin.tech/style/home/img/clients/logo-23.jpg" />
-      </div>
-      <div class="item">
-        <img class="w-100" src="http://www.yuanchin.tech/style/home/img/clients/logo-24.jpg" />
+      <div class="item" v-for="item in list" :key="item.id">
+        <img class="w-100" :src="item.url" />
       </div>
     </div>
   </div>
 </template>
 <script>
 export default {
-  name: 'Partner'
+  name: 'Partner',
+  data () {
+    return {
+      list: [{
+        id: 1,
+        url: '/static/img/logo-1.jpg'
+      }, {
+        id: 2,
+        url: '/static/img/logo-2.jpg'
+      }, {
+        id: 3,
+        url: '/static/img/logo-3.jpg'
+      }, {
+        id: 4,
+        url: '/static/img/logo-4.jpg'
+      }, {
+        id: 5,
+        url: '/static/img/logo-5.jpg'
+      }, {
+        id: 6,
+        url: '/static/img/logo-6.jpg'
+      }, {
+        id: 7,
+        url: '/static/img/logo-7.jpg'
+      }, {
+        id: 8,
+        url: '/static/img/logo-8.jpg'
+      }, {
+        id: 9,
+        url: '/static/img/logo-9.jpg'
+      }, {
+        id: 10,
+        url: '/static/img/logo-10.jpg'
+      }, {
+        id: 11,
+        url: '/static/img/logo-11.jpg'
+      }, {
+        id: 12,
+        url: '/static/img/logo-12.jpg'
+      }, {
+        id: 13,
+        url: '/static/img/logo-13.jpg'
+      }, {
+        id: 14,
+        url: '/static/img/logo-14.jpg'
+      }, {
+        id: 15,
+        url: '/static/img/logo-15.jpg'
+      }, {
+        id: 16,
+        url: '/static/img/logo-16.jpg'
+      }, {
+        id: 17,
+        url: '/static/img/logo-17.jpg'
+      }, {
+        id: 18,
+        url: '/static/img/logo-18.jpg'
+      }]
+    }
+  }
 }
 </script>
 <style scoped>
