@@ -21,7 +21,7 @@ const webpackConfig = merge(baseWebpackConfig, {
       usePostCSS: true
     })
   },
-  devtool: config.build.productionSourceMap ? config.build.devtool : false,
+  devtool: false,
   output: {
     publicPath: './', //css url打包图片
     path: config.build.assetsRoot,

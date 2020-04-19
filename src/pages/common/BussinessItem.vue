@@ -1,30 +1,32 @@
 <template>
-  <div class="container">
-    <div class="main clear">
-      <div class="main-inner">
-        <h2>
-          <strong>科技信息资源服务</strong>
-        </h2>
-        <p class="text-muted">集成科技政策、科技查新、专利检索、科技培训、专家智库</p>
-        <hr />
-        <p>您需要的不仅仅是一个网站！在互联网已成为基础实施的今天，官方网站已成为企业品牌露出的重要平台、内外信息流的中枢和企业互联网应用的集成系统。如何有效的将企业官方网站的作用发挥出来，促进企业内外信息的流动，进而提升企业的运行效率，是我们一直在思考和实践的重要命题。</p>
-        <h3>服务特点</h3>
-        <ul class="pl-3">
-          <li>多语种，全球化，提供多达78种语言的支持</li>
-          <li>集成多种展示终端（web、h5、小程序、ios、android等）</li>
-          <li>基于云计算的技术架构</li>
-          <li>与国内外顶尖数字设计工作室合作</li>
-        </ul>
-      </div>
-      <div class="box">
-        <img src="../../../assets/image/solution-1.jpg" alt srcset />
+  <div>
+    <div class="container" v-for="item in businessList" :key="item.id">
+      <div class="main clear">
+        <div class="main-inner">
+          <h2>
+            <strong>{{item.h2}}</strong>
+          </h2>
+          <p class="text-muted">{{item.p1}}</p>
+          <hr />
+          <p>{{item.p2}}</p>
+          <h3>服务特点</h3>
+          <ul class="pl-3">
+            <li v-for="(li,index) in item.li" :key="index">{{li}}</li>
+          </ul>
+        </div>
+        <div class="box">
+          <img src="../../assets/image/solution-1.jpg" alt srcset />
+        </div>
       </div>
     </div>
   </div>
 </template>
 <script>
 export default {
-  name: 'Banner'
+  name: 'Banner',
+  props: {
+    businessList: Array
+  }
 }
 </script>
 <style scoped>
@@ -69,6 +71,7 @@ export default {
 @media screen and (max-width: 756px) {
   .main {
     height: 600px;
+    margin-top: 20px;
   }
   .main-inner {
     max-width: 90% !important;
@@ -80,8 +83,13 @@ export default {
 }
 @media screen and (max-width: 496px) {
   .main {
+    padding: 0 10%;
     height: 635px;
     margin-top: 20px;
+  }
+  .main-inner {
+    max-width: 90% !important;
+    right: 10%;
   }
 }
 .main h2 {
@@ -122,14 +130,5 @@ export default {
 .box img {
   width: 450px;
   height: 490px;
-}
-@media screen and (max-width: 496px) {
-  .main {
-    padding: 10%;
-  }
-  .main-inner {
-    max-width: 90% !important;
-    right: 10%;
-  }
 }
 </style>

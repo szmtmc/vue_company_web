@@ -52,11 +52,11 @@ export default {
 .container .inner {
   position: absolute;
   top: 80px;
-  margin: 0 30px;
   margin-bottom: 30px;
   text-align: center;
-  /* margin: 0 auto; */
+  margin: 0 auto;
   color: #fff;
+  padding: 0 30px;
 }
 .container .inner h2 {
   margin-top: 120px;
