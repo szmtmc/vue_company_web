@@ -16,28 +16,28 @@ export default {
     return {
       list: [{
         id: 1,
-        url: '/static/img/zjzk-1.jpg'
+        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/zjzk-1.jpg'
       }, {
         id: 2,
-        url: '/static/img/zjzk-2.jpg'
+        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/zjzk-2.jpg'
       }, {
         id: 3,
-        url: '/static/img/zjzk-3.jpg'
+        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/zjzk-3.jpg'
       }, {
         id: 4,
-        url: '/static/img/zjzk-4.jpg'
+        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/zjzk-4.jpg'
       }, {
         id: 5,
-        url: '/static/img/zjzk-5.jpg'
+        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/zjzk-5.jpg'
       }, {
         id: 6,
-        url: '/static/img/zjzk-6.jpg'
+        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/zjzk-6.jpg'
       }, {
         id: 7,
-        url: '/static/img/zjzk-7.jpg'
+        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/zjzk-7.jpg'
       }, {
         id: 8,
-        url: '/static/img/zjzk-8.jpg'
+        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/zjzk-8.jpg'
       }]
     }
   }
@@ -45,7 +45,7 @@ export default {
 </script>
 <style scoped>
 .container {
-  margin-top: 50px;
+  margin: 50px 0;
   background: #ffffff;
 }
 .container h2 {

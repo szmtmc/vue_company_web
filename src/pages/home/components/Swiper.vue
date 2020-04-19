@@ -31,15 +31,15 @@ export default {
       list: [{
         id: 1,
         h1: '构建战略级科技服务的生态系统',
-        url: '/static/img/slide-1.jpg'
+        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/slide-1.jpg'
       }, {
         id: 2,
         h1: '成功源于共享 创新成就未来',
-        url: '/static/img/slide-2.jpg'
+        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/slide-2.jpg'
       }, {
         id: 3,
         h1: '拓知共行 服务至上',
-        url: '/static/img/slide-3.jpg'
+        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/slide-3.jpg'
       }]
     }
   }
