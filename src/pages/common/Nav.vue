@@ -6,20 +6,20 @@
           <img height="32" src="../../assets/image/logo.png" />
         </a>
         <ul class="menu clear">
-          <router-link tag="li" to="/business">{{$t('lang.solution')}}</router-link>
-          <router-link tag="li" to="/about">{{$t('lang.about')}}</router-link>
-          <router-link tag="li" to="/join">{{$t('lang.join')}}</router-link>
-          <router-link tag="li" to="/contact">{{$t('lang.contact')}}</router-link>
+          <router-link tag="li" to="/business" :class="{fff:navindex===1}">{{$t('lang.solution')}}</router-link>
+          <router-link tag="li" to="/about" :class="{fff:navindex===2}">{{$t('lang.about')}}</router-link>
+          <router-link tag="li" to="/join" :class="{fff:navindex===3}">{{$t('lang.join')}}</router-link>
+          <router-link tag="li" to="/contact" :class="{fff:navindex===4}">{{$t('lang.contact')}}</router-link>
         </ul>
         <span class="more" @click="downmenuClick()">三</span>
       </nav>
     </header>
     <nav class="nav-down" v-show="downmenuShow">
       <ul class="downmenu clear">
-        <router-link tag="li" to="/business">{{$t('lang.solution')}}</router-link>
-        <router-link tag="li" to="/about">{{$t('lang.about')}}</router-link>
-        <router-link tag="li" to="/join">{{$t('lang.join')}}</router-link>
-        <router-link tag="li" to="/contact">{{$t('lang.contact')}}</router-link>
+        <router-link tag="li" to="/business" :class="{fff:navindex===1}">{{$t('lang.solution')}}</router-link>
+        <router-link tag="li" to="/about" :class="{fff:navindex===2}">{{$t('lang.about')}}</router-link>
+        <router-link tag="li" to="/join" :class="{fff:navindex===3}">{{$t('lang.join')}}</router-link>
+        <router-link tag="li" to="/contact" :class="{fff:navindex===4}">{{$t('lang.contact')}}</router-link>
       </ul>
     </nav>
   </div>
@@ -31,6 +31,9 @@ export default {
     return {
       downmenuShow: false
     }
+  },
+  props: {
+    navindex: String
   },
   mounted () {
   },
@@ -50,6 +53,7 @@ export default {
 }
 .fff {
   color: #fff !important;
+  pointer-events: none;
 }
 header {
   position: fixed;

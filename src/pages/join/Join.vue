@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Home-Nav></Home-Nav>
+    <Home-Nav :navindex="3"></Home-Nav>
     <Home-Banner></Home-Banner>
     <Join-Item></Join-Item>
     <Home-Join></Home-Join>

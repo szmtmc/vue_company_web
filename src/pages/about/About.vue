@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Home-Nav></Home-Nav>
+    <Home-Nav :navindex="2"></Home-Nav>
     <Home-Banner></Home-Banner>
     <Home-Main></Home-Main>
     <Home-Footer></Home-Footer>
