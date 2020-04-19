@@ -30,17 +30,17 @@ export default {
         id: 1,
         h2_1: '科技信息资源服务',
         p_1: '集成科技政策、科技查新、专利检索、科技培训、专家智库',
-        img_1: '/static/img/index-service-1.a231586.png'
+        img_1: 'http://www.yuanchin.tech/style/home/img/index-service-1.png'
       }, {
         id: 2,
         h2_1: '知识产权服务',
         p_1: '知识产权战略咨询、知识产权申请与管理、知识产权运营',
-        img_1: '/static/img/index-service-2.65acdf7.png'
+        img_1: 'http://www.yuanchin.tech/style/home/img/index-service-2.png'
       }, {
         id: 3,
         h2_1: '科技咨询服务',
         p_1: '科技战略研究咨询、科技项目申报辅导、科技项目管理服务',
-        img_1: '/static/img/index-service-3.0afadb8.png'
+        img_1: 'http://www.yuanchin.tech/style/home/img/index-service-3.png'
       }],
       list2: [{
         id: 1,

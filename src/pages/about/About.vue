@@ -1,7 +1,7 @@
 <template>
   <div>
     <Home-Nav :navindex="2"></Home-Nav>
-    <Home-Banner></Home-Banner>
+    <Home-Banner :list="list"></Home-Banner>
     <Home-Main></Home-Main>
     <Home-Footer></Home-Footer>
   </div>
@@ -9,7 +9,7 @@
 
 <script>
 import HomeNav from '../common/Nav'
-import HomeBanner from './components/Banner'
+import HomeBanner from '../common/Banner'
 import HomeMain from './components/Main'
 import HomeFooter from '../common/Footer'
 
@@ -17,6 +17,15 @@ export default {
   name: 'Home',
   components: {
     HomeNav, HomeFooter, HomeBanner, HomeMain
+  },
+  data () {
+    return {
+      list: [{
+        id: 2,
+        h2: '关于百拓',
+        p: '我们着眼未来，相信前程似锦'
+      }]
+    }
   }
 }
 </script>
