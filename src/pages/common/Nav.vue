@@ -3,7 +3,7 @@
     <header class="header clear">
       <nav class="navbar">
         <a class="navbar-brand">
-          <img height="32" src="../../assets/image/logo1.png" />
+          <img height="32" src="../../assets/image/logo.png" />
           <!-- <img height="32" src="../../assets/image/logo.png" /> -->
         </a>
         <ul class="menu clear">

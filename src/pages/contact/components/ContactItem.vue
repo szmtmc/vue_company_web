@@ -1,36 +1,14 @@
 <template>
   <div class="container">
     <div class="card-deck services">
-      <div class="card border-0 rounded-0">
-        <img class="w-100" src="../../../assets/image/contact-1.jpg" />
+      <div class="card border-0 rounded-0" v-for="item in list" :key="item.id">
+        <img class="w-100" :src="item.url" />
         <div class="card-body text-center py-5">
-          <h5 class="card-title font-weight-bold">{{$t('lang.add1h1')}}</h5>
+          <h5 class="card-title font-weight-bold">{{item.h5}}</h5>
           <p class="card-text">
-            {{$t('lang.add1e1')}}
+            {{item.p1}}
             <br />
-            {{$t('lang.add1p1')}}
-          </p>
-        </div>
-      </div>
-      <div class="card border-0 rounded-0">
-        <img class="w-100" src="../../../assets/image/contact-2.jpg" />
-        <div class="card-body text-center py-5">
-          <h5 class="card-title font-weight-bold">{{$t('lang.add2h1')}}</h5>
-          <p class="card-text">
-            {{$t('lang.add2e1')}}
-            <br />
-            {{$t('lang.add2p1')}}
-          </p>
-        </div>
-      </div>
-      <div class="card border-0 rounded-0">
-        <img class="w-100" src="../../../assets/image/contact-3.jpg" />
-        <div class="card-body text-center py-5">
-          <h5 class="card-title font-weight-bold">{{$t('lang.add3h1')}}</h5>
-          <p class="card-text">
-            {{$t('lang.add3e1')}}
-            <br />
-            {{$t('lang.add3p1')}}
+            {{item.p2}}
           </p>
         </div>
       </div>
@@ -39,7 +17,30 @@
 </template>
 <script>
 export default {
-  name: 'Product'
+  name: 'Product',
+  data () {
+    return {
+      list: [{
+        id: 1,
+        h5: '广东·广州',
+        p1: '13802760156',
+        p2: '广州市黄埔区永和经济技术开发区斗塘路22号',
+        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/contact-1.jpg'
+      }, {
+        id: 2,
+        h5: '江苏·无锡',
+        p1: '0510-82434568',
+        p2: '无锡市锡山经济开发区锡山科创园 瑞云六座一楼',
+        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/contact-2.jpg'
+      }, {
+        id: 3,
+        h5: '广东·佛山',
+        p1: '15815864696',
+        p2: '佛山市禅城区港口路2号首层P8号',
+        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/contact-3.jpg'
+      }]
+    }
+  }
 }
 </script>
 <style scoped>

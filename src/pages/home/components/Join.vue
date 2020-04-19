@@ -24,7 +24,7 @@ export default {
 </script>
 <style scoped>
 .container {
-  background-image: url("../../../assets/image/office.jpg");
+  background-image: url("https://szsz12.oss-cn-beijing.aliyuncs.com/office.jpg");
   background-position: top center;
   background-size: cover;
   background-attachment: fixed;
