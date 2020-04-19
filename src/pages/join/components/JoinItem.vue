@@ -1,25 +1,11 @@
 <template>
   <div class="container">
     <div class="card-deck services">
-      <div class="card border-0 rounded-0">
-        <img class="w-100" src="../../../assets/image/careers-jobs-1.png" />
+      <div class="card border-0 rounded-0" v-for="item in list" :key="item.id">
+        <img class="w-100" :src="item.url" />
         <div class="card-body text-center py-5">
-          <h5 class="card-title font-weight-bold">技术研发</h5>
-          <p class="card-text">规范的代码，定期的CODEREVIEW，轻松的氛围</p>
-        </div>
-      </div>
-      <div class="card border-0 rounded-0">
-        <img class="w-100" src="../../../assets/image/careers-jobs-2.png" />
-        <div class="card-body text-center py-5">
-          <h5 class="card-title font-weight-bold">商务&客服</h5>
-          <p class="card-text">我们认为商务&客服是连接我们和客户最重要的桥梁</p>
-        </div>
-      </div>
-      <div class="card border-0 rounded-0">
-        <img class="w-100" src="../../../assets/image/careers-jobs-3.png" />
-        <div class="card-body text-center py-5">
-          <h5 class="card-title font-weight-bold">实习岗位</h5>
-          <p class="card-text">实习结束后，我们就是朋友啦:)</p>
+          <h5 class="card-title font-weight-bold">{{item.h5}}</h5>
+          <p class="card-text">{{item.p}}</p>
         </div>
       </div>
     </div>
@@ -27,7 +13,27 @@
 </template>
 <script>
 export default {
-  name: 'Product'
+  name: 'Product',
+  data () {
+    return {
+      list: [{
+        id: 1,
+        h5: '知识产权',
+        p: '规范的流程，定期的会议，轻松的氛围',
+        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/careers-jobs-1.png'
+      }, {
+        id: 2,
+        h5: '商务&客服',
+        p: '我们认为商务&客服是连接我们和客户最重要的桥梁',
+        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/careers-jobs-2.png'
+      }, {
+        id: 3,
+        h5: '实习岗位',
+        p: '实习结束后，我们就是朋友啦:)',
+        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/careers-jobs-3.png'
+      }]
+    }
+  }
 }
 </script>
 <style scoped>
