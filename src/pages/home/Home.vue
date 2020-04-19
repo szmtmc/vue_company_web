@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Home-Nav></Home-Nav>
+    <Home-Nav :navindex="0"></Home-Nav>
     <Home-Swiper></Home-Swiper>
     <Home-Product :list="list1"></Home-Product>
     <Home-Product :list="list2"></Home-Product>

@@ -3,26 +3,15 @@
     <div class="main clear">
       <div class="main-inner">
         <h2>
-          <strong>
-            远锦YUANCHIN
-            <sup>®</sup>
-          </strong>
+          <strong>百拓BAITTON</strong>
         </h2>
-        <p class="text-muted">依托技术，我们将策略、设计和运营整合在一起</p>
+        <p class="text-muted">成功源于共享，创新成就未来</p>
         <hr />
         <p>
-          <strong>
-            远锦YUANCHIN
-            <sup>®</sup>
-          </strong>肇始于2007年，自创立以来一直致力于为各类机构和企业提供富有前瞻性的互联网咨询和技术服务，业务覆盖云计算、大数据、科技金融和AI集成等领域。公司总部设于中国成都，并在美国洛杉矶和芬兰赫尔辛基设有分支机构。
+          <strong>广州百拓共享科技应用股份有限公司</strong>
+          于2013年7月成立，是一家旨在企事业单位、政府机构、科研院校及各行各业专家之间构建全周期、全生态链的科技服务体 系的服务运营机构。面向各行业的企事业单位及政府客户，我 们的服务包括科技信息资源、科技项目管理及创新成果、科技咨询、知识产权、科技金融、创业孵化、财税顾问及职业教育培训等。
         </p>
-        <p>
-          多年来，
-          <strong>
-            远锦YUANCHIN
-            <sup>®</sup>
-          </strong>深耕企业互联网服务市场，不断提升技术实力和服务水平，通过长期而富有成效的工作，助力各个行业的客户迈向更高的台阶。
-        </p>
+        <p>以“构建战略级科技创新服务生态系统”为使命，秉承 “拓知共行、服务至上”的服务理念及最专业的服务态度，我们用六年的时间着力打造了一条企业从孵化期到成熟期的全生 态科技服务产业链。我们将用最专业的服务为客户提供成长动力，实现合作共赢。</p>
       </div>
       <div class="box">
         <img src="../../../assets/image/office-1.jpg" alt srcset />
@@ -114,7 +103,9 @@ export default {
 }
 @media screen and (max-width: 496px) {
   .main {
+    margin-top: 30px;
     padding: 10%;
+    height: 700px;
   }
   .main-inner {
     max-width: 90% !important;

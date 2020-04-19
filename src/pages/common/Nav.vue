@@ -2,10 +2,12 @@
   <div>
     <header class="header clear">
       <nav class="navbar">
-        <a class="navbar-brand" href="/">
-          <img height="32" src="../../assets/image/logo.png" />
+        <a class="navbar-brand">
+          <img height="32" src="../../assets/image/logo1.png" />
+          <!-- <img height="32" src="../../assets/image/logo.png" /> -->
         </a>
         <ul class="menu clear">
+          <router-link tag="li" to="/" :class="{fff:navindex===0}">首页</router-link>
           <router-link tag="li" to="/business" :class="{fff:navindex===1}">{{$t('lang.solution')}}</router-link>
           <router-link tag="li" to="/about" :class="{fff:navindex===2}">{{$t('lang.about')}}</router-link>
           <router-link tag="li" to="/join" :class="{fff:navindex===3}">{{$t('lang.join')}}</router-link>
@@ -16,6 +18,7 @@
     </header>
     <nav class="nav-down" v-show="downmenuShow">
       <ul class="downmenu clear">
+        <router-link tag="li" to="/" :class="{fff:navindex===0}">首页</router-link>
         <router-link tag="li" to="/business" :class="{fff:navindex===1}">{{$t('lang.solution')}}</router-link>
         <router-link tag="li" to="/about" :class="{fff:navindex===2}">{{$t('lang.about')}}</router-link>
         <router-link tag="li" to="/join" :class="{fff:navindex===3}">{{$t('lang.join')}}</router-link>
