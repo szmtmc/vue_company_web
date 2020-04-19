@@ -2,31 +2,13 @@
   <div class="banner-wrap">
     <div class="wrapper">
       <swiper :options="swiperOptions">
-        <swiper-slide>
+        <swiper-slide v-for="item in list" :key="item.id">
           <div class="imgwrapepr">
             <div class="banner-info">
-              <h1>{{$t('lang.slide1h1')}}</h1>
+              <h1>{{item.h1}}</h1>
               <!-- <p>{{$t('lang.slide1p')}}</p> -->
             </div>
-            <img class="bannerimg" src="../../../assets/image/slide-1.jpg" />
-          </div>
-        </swiper-slide>
-        <swiper-slide>
-          <div class="imgwrapepr">
-            <div class="banner-info">
-              <h1>{{$t('lang.slide2h1')}}</h1>
-              <!-- <p>{{$t('lang.slide2p')}}</p> -->
-            </div>
-            <img class="bannerimg" src="../../../assets/image/slide-2.jpg" />
-          </div>
-        </swiper-slide>
-        <swiper-slide>
-          <div class="imgwrapepr">
-            <div class="banner-info">
-              <h1>{{$t('lang.slide3h1')}}</h1>
-              <!-- <p>{{$t('lang.slide3p')}}</p> -->
-            </div>
-            <img class="bannerimg" src="../../../assets/image/slide-3.jpg" />
+            <img class="bannerimg" :src="item.url" />
           </div>
         </swiper-slide>
         <div class="swiper-pagination" slot="pagination"></div>
@@ -42,10 +24,23 @@ export default {
   data () {
     return {
       swiperOptions: {
+        loop: true,
         pagination: '.swiper-pagination',
-        autoplay: 4000,
-        loop: true
-      }
+        autoplay: 4000
+      },
+      list: [{
+        id: 1,
+        h1: '构建战略级科技服务的生态系统',
+        url: '/static/img/slide-1.jpg'
+      }, {
+        id: 2,
+        h1: '成功源于共享 创新成就未来',
+        url: '/static/img/slide-2.jpg'
+      }, {
+        id: 3,
+        h1: '拓知共行 服务至上',
+        url: '/static/img/slide-3.jpg'
+      }]
     }
   }
 }

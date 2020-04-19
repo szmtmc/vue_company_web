@@ -8,11 +8,12 @@
           </h2>
           <p class="text-muted">{{item.p1}}</p>
           <hr />
-          <p>{{item.p2}}</p>
-          <h3>服务特点</h3>
+          <p>{{item.p2_1}}</p>
+          <p>{{item.p2_2}}</p>
+          <!-- <h3>服务特点</h3>
           <ul class="pl-3">
             <li v-for="(li,index) in item.li" :key="index">{{li}}</li>
-          </ul>
+          </ul>-->
         </div>
         <div class="box">
           <img src="../../assets/image/solution-1.jpg" alt srcset />
@@ -70,12 +71,14 @@ export default {
 }
 @media screen and (max-width: 756px) {
   .main {
-    height: 600px;
+    padding: 0 10%;
+    height: 584px;
     margin-top: 20px;
+    margin-bottom: -15px;
   }
   .main-inner {
     max-width: 90% !important;
-    right: 5%;
+    right: 10%;
   }
   .box {
     display: none;
@@ -84,8 +87,9 @@ export default {
 @media screen and (max-width: 496px) {
   .main {
     padding: 0 10%;
-    height: 635px;
+    height: 584px;
     margin-top: 20px;
+    margin-bottom: -15px;
   }
   .main-inner {
     max-width: 90% !important;
@@ -121,14 +125,14 @@ export default {
   margin-bottom: 20px;
 }
 .box {
-  width: 450px;
-  height: 490px;
+  width: 350px;
+  height: 350px;
   float: right;
   margin-right: 20%;
-  margin-top: -20px;
+  margin-top: -10px;
 }
 .box img {
-  width: 450px;
-  height: 490px;
+  width: 350px;
+  height: 350px;
 }
 </style>

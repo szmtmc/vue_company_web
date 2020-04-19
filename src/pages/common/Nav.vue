@@ -13,7 +13,23 @@
           <router-link tag="li" to="/join" :class="{fff:navindex===3}">{{$t('lang.join')}}</router-link>
           <router-link tag="li" to="/contact" :class="{fff:navindex===4}">{{$t('lang.contact')}}</router-link>
         </ul>
-        <span class="more" @click="downmenuClick()">三</span>
+        <span class="more" @click="downmenuClick()">
+          <div class="icon-twrap" p-id="599">
+            <svg
+              class="icon"
+              style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;"
+              viewBox="0 0 1024 1024"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              p-id="601"
+            >
+              <path
+                d="M925 811H99.5c-12 0.7-23.5-5.3-29.7-15.7-6.2-10.3-6.2-23.3 0-33.6s17.7-16.4 29.7-15.7H925c12-0.7 23.5 5.3 29.7 15.7 6.2 10.3 6.2 23.3 0 33.6-6.3 10.4-17.7 16.4-29.7 15.7zM925 534.7H99.5c-12 0.7-23.5-5.3-29.7-15.7-6.2-10.3-6.2-23.3 0-33.6s17.7-16.4 29.7-15.7H925c12-0.7 23.5 5.3 29.7 15.7 6.2 10.3 6.2 23.3 0 33.6-6.3 10.3-17.7 16.4-29.7 15.7zM925 279.7H99.5c-12 0.7-23.5-5.3-29.7-15.7-6.2-10.3-6.2-23.3 0-33.6s17.7-16.4 29.7-15.7H925c12-0.7 23.5 5.3 29.7 15.7 6.2 10.3 6.2 23.3 0 33.6-6.3 10.3-17.7 16.4-29.7 15.7z"
+                p-id="602"
+              />
+            </svg>
+          </div>
+        </span>
       </nav>
     </header>
     <nav class="nav-down" v-show="downmenuShow">
@@ -36,7 +52,7 @@ export default {
     }
   },
   props: {
-    navindex: String
+    navindex: Number
   },
   mounted () {
   },
@@ -90,8 +106,9 @@ header {
   font-size: 15px;
   cursor: pointer;
 }
-.nav-down ul {
-  float: right;
+.nav-down ul li {
+  margin-left: 50%;
+  transform: translateX(-25%);
 }
 .more {
   display: none;
@@ -137,6 +154,22 @@ header li:hover,
   .header .navbar-brand {
     float: left;
     background-color: #043985;
+  }
+  .downmenu {
+    border-top: 1px solid #fff;
+    height: 181px;
+  }
+  .nav-down {
+    overflow: hidden;
+    animation: mymove 0.5s;
+  }
+  @keyframes mymove {
+    from {
+      height: 0px;
+    }
+    to {
+      height: 181px;
+    }
   }
 }
 </style>
