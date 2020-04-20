@@ -9,7 +9,7 @@ import Business from '@/pages/business/Business'
 Vue.use(Router)
 
 export default new Router({
-  // mode: 'history',
+  mode: 'history',
   routes: [
     {
       path: '/',
@@ -31,6 +31,9 @@ export default new Router({
       path: '/business',
       name: 'Business',
       component: Business
+    }, {
+      path: '*',
+      component: Home
     }
   ],
   scrollBehavior (to, from, savePosition) {
