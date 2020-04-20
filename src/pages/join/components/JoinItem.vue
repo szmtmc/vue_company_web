@@ -20,17 +20,17 @@ export default {
         id: 1,
         h5: '专利代理',
         p: '规范的流程，轻松的氛围，跟团队一起成长为更专业的专利代理人',
-        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/careers-jobs-1.png'
+        url: 'http://img.baitton.com/careers-jobs-1.png'
       }, {
         id: 2,
         h5: '商务助理',
         p: '我们认为商务助理是连接我们和客户最重要的桥梁',
-        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/careers-jobs-2.png'
+        url: 'http://img.baitton.com/careers-jobs-2.png'
       }, {
         id: 3,
         h5: '实习岗位',
         p: '实习结束后，我们就是朋友啦:)',
-        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/careers-jobs-3.png'
+        url: 'http://img.baitton.com/careers-jobs-3.png'
       }]
     }
   }

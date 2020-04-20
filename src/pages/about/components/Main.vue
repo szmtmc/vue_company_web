@@ -14,7 +14,7 @@
         <p>以“构建战略级科技创新服务生态系统”为使命，秉承 “拓知共行、服务至上”的服务理念及最专业的服务态度，我们用六年的时间着力打造了一条企业从孵化期到成熟期的全生 态科技服务产业链。我们将用最专业的服务为客户提供成长动力，实现合作共赢。</p>
       </div>
       <div class="box">
-        <img src="https://szsz12.oss-cn-beijing.aliyuncs.com/office.jpg" />
+        <img src="http://img.baitton.com/office.jpg" />
       </div>
     </div>
   </div>

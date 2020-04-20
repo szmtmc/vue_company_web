@@ -16,10 +16,10 @@ export default {
   data () {
     return {
       styleObj: '',
-      styleObj1: { backgroundImage: 'url(https://szsz12.oss-cn-beijing.aliyuncs.com/solutions-subtitle-bg.jpg)' },
-      styleObj2: { backgroundImage: 'url(https://szsz12.oss-cn-beijing.aliyuncs.com/about-subtitle-bg.jpg)' },
-      styleObj3: { backgroundImage: 'url(https://szsz12.oss-cn-beijing.aliyuncs.com/jobs-subtitle-bg.jpg)' },
-      styleObj4: { backgroundImage: 'url(https://szsz12.oss-cn-beijing.aliyuncs.com/contact-subtitle-bg.jpg)' }
+      styleObj1: { backgroundImage: 'url(http://img.baitton.com/solutions-subtitle-bg.jpg)' },
+      styleObj2: { backgroundImage: 'url(http://img.baitton.com/about-subtitle-bg.jpg)' },
+      styleObj3: { backgroundImage: 'url(http://img.baitton.com/jobs-subtitle-bg.jpg)' },
+      styleObj4: { backgroundImage: 'url(http://img.baitton.com/contact-subtitle-bg.jpg)' }
     }
   },
   mounted () {

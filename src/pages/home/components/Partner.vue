@@ -16,58 +16,58 @@ export default {
     return {
       list: [{
         id: 1,
-        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/logo-1.jpg'
+        url: 'http://img.baitton.com/logo-1.jpg'
       }, {
         id: 2,
-        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/logo-2.jpg'
+        url: 'http://img.baitton.com/logo-2.jpg'
       }, {
         id: 3,
-        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/logo-3.jpg'
+        url: 'http://img.baitton.com/logo-3.jpg'
       }, {
         id: 4,
-        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/logo-4.jpg'
+        url: 'http://img.baitton.com/logo-4.jpg'
       }, {
         id: 5,
-        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/logo-5.jpg'
+        url: 'http://img.baitton.com/logo-5.jpg'
       }, {
         id: 6,
-        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/logo-6.jpg'
+        url: 'http://img.baitton.com/logo-6.jpg'
       }, {
         id: 7,
-        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/logo-7.jpg'
+        url: 'http://img.baitton.com/logo-7.jpg'
       }, {
         id: 8,
-        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/logo-8.jpg'
+        url: 'http://img.baitton.com/logo-8.jpg'
       }, {
         id: 9,
-        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/logo-9.jpg'
+        url: 'http://img.baitton.com/logo-9.jpg'
       }, {
         id: 10,
-        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/logo-10.jpg'
+        url: 'http://img.baitton.com/logo-10.jpg'
       }, {
         id: 11,
-        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/logo-11.jpg'
+        url: 'http://img.baitton.com/logo-11.jpg'
       }, {
         id: 12,
-        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/logo-12.jpg'
+        url: 'http://img.baitton.com/logo-12.jpg'
       }, {
         id: 13,
-        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/logo-13.jpg'
+        url: 'http://img.baitton.com/logo-13.jpg'
       }, {
         id: 14,
-        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/logo-14.jpg'
+        url: 'http://img.baitton.com/logo-14.jpg'
       }, {
         id: 15,
-        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/logo-15.jpg'
+        url: 'http://img.baitton.com/logo-15.jpg'
       }, {
         id: 16,
-        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/logo-16.jpg'
+        url: 'http://img.baitton.com/logo-16.jpg'
       }, {
         id: 17,
-        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/logo-17.jpg'
+        url: 'http://img.baitton.com/logo-17.jpg'
       }, {
         id: 18,
-        url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/logo-18.jpg'
+        url: 'http://img.baitton.com/logo-18.jpg'
       }]
     }
   }
