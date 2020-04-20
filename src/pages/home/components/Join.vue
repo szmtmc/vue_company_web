@@ -2,18 +2,14 @@
   <div class="container">
     <div class="inner">
       <h2>
-        {{$t('lang.joinus')}}
-        <strong>
-          {{$t('lang.us')}}
-          <sup>®</sup>
-        </strong>
+       加入<strong>百拓BAITTON<sup>®</sup></strong>
       </h2>
       <hr />
       <p>{{$t('lang.joinp')}}</p>
       <p>
-        <a href="mailto:712104878@qq.com" class="submit">{{$t('lang.submit')}}</a>
+        <a href="mailto:baituogx@126.com" class="submit">{{$t('lang.submit')}}</a>
       </p>
-      <p class="small">{{$t('lang.joinp2')}}</p>
+      <p class="small">为便于检索，请按统一格式填写邮件标题：职位-姓名，如：商务助理-张百拓</p>
     </div>
   </div>
 </template>

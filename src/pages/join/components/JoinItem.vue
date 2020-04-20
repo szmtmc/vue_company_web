@@ -18,13 +18,13 @@ export default {
     return {
       list: [{
         id: 1,
-        h5: '知识产权',
-        p: '规范的流程，定期的会议，轻松的氛围',
+        h5: '专利代理',
+        p: '规范的流程，轻松的氛围，跟团队一起成长为更专业的专利代理人',
         url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/careers-jobs-1.png'
       }, {
         id: 2,
-        h5: '商务&客服',
-        p: '我们认为商务&客服是连接我们和客户最重要的桥梁',
+        h5: '商务助理',
+        p: '我们认为商务助理是连接我们和客户最重要的桥梁',
         url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/careers-jobs-2.png'
       }, {
         id: 3,
