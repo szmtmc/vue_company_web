@@ -5,6 +5,7 @@ import Contact from '@/pages/contact/Contact'
 import About from '@/pages/about/About'
 import Join from '@/pages/join/Join'
 import Business from '@/pages/business/Business'
+import NotFound from '@/pages/notfound/NotFound'
 
 Vue.use(Router)
 
@@ -33,7 +34,8 @@ export default new Router({
       component: Business
     }, {
       path: '*',
-      component: Home
+      name: 'NotFound',
+      component: NotFound
     }
   ],
   scrollBehavior (to, from, savePosition) {
