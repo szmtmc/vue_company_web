@@ -96,6 +96,10 @@ export default {
   flex-wrap: wrap;
   padding-bottom: 40px;
 }
+img {
+  padding: 0 5px;
+  width: 180px;
+}
 @media screen and (max-width: 1175px) {
   .row {
     max-width: 70%;
@@ -125,7 +129,7 @@ export default {
     max-width: 70%;
   }
   .item {
-    width: 33.3%;
+    width: 33.33333%;
   }
   img {
     width: 90px !important;
