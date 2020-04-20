@@ -2,7 +2,7 @@
   <div class="container">
     <div class="card-deck services">
       <div class="card border-0 rounded-0" v-for="item in list" :key="item.id">
-        <img class="w-100" :src="item.img_1" width="422" height="254"/>
+        <img class="w-100" :src="item.img_1" width="422" height="254" />
         <div class="card-body text-center py-5">
           <h5 class="card-title font-weight-bold">{{item.h2_1}}</h5>
           <p class="card-text">{{item.p_1}}</p>
@@ -61,7 +61,12 @@ export default {
 }
 .w-100 {
   width: 100% !important;
+  transition: all 0.6s;
 }
+.w-100:hover {
+  transform: scale(1.02);
+}
+
 img {
   vertical-align: middle;
   border-style: none;

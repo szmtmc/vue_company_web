@@ -1,7 +1,7 @@
 <template>
   <div>
     <header class="header clear">
-      <nav class="navbar">
+      <nav class="navbar" v-show="navshow">
         <a class="navbar-brand">
           <img height="32" src="../../assets/image/logo.png" />
           <!-- <img height="32" src="../../assets/image/logo.png" /> -->
@@ -48,7 +48,10 @@ export default {
   name: 'Nav',
   data () {
     return {
-      downmenuShow: false
+      downmenuShow: false,
+      navshow: true,
+      height: 0,
+      timer: null
     }
   },
   props: {
@@ -56,9 +59,30 @@ export default {
   },
   mounted () {
   },
+  created () {
+    window.addEventListener('scroll', this.handleScroll)
+  },
+  destroyed () {
+    window.removeEventListener('scroll', this.handleScroll)
+  },
   methods: {
     downmenuClick () {
       this.downmenuShow = !this.downmenuShow
+    },
+    handleScroll (e) {
+      if (this.timer) {
+        clearTimeout(this.timer)
+      }
+      this.timer = setTimeout(() => {
+        const top = document.documentElement.scrollTop
+        if (this.height < top) {
+          this.navshow = false
+          this.height = top
+        } else {
+          this.navshow = true
+          this.height = top
+        }
+      }, 50)
     }
   }
 

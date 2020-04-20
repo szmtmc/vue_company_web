@@ -99,7 +99,7 @@ export default {
 @media screen and (max-width: 767px) {
   .banner-info h1 {
     width: 100%;
-    word-wrap: break-word;
+    word-break: keep-all;
     word-break: normal;
     padding-right: 30px;
   }
@@ -126,7 +126,8 @@ export default {
   }
   .banner-info h1 {
     font-size: 30px;
-    line-height: 30px;
+    line-height: 38px;
+    word-break: keep-all;
   }
 }
 </style>
