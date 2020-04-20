@@ -97,8 +97,9 @@ export default {
   padding-bottom: 40px;
 }
 img {
-  padding: 0 5px;
-  width: 180px;
+  width: 170px;
+  height: 84.2px;
+  padding: 0 10px 0 0;
 }
 @media screen and (max-width: 1175px) {
   .row {
@@ -108,7 +109,7 @@ img {
     width: 16.66667%;
   }
   img {
-    width: 90px;
+    width: 80px;
     height: 47.36px;
   }
 }
@@ -132,7 +133,7 @@ img {
     width: 33.33333%;
   }
   img {
-    width: 90px !important;
+    width: 80px !important;
     height: 47.36px !important;
   }
 }

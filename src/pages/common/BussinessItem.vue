@@ -99,8 +99,8 @@ export default {
 .main h2 {
   font-size: 36px;
   font-weight: bolder;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
+  margin-top: 0.83rem;
+  margin-bottom: 0.83rem;
 }
 .main h3 {
   font-size: 30px;
