@@ -37,7 +37,7 @@ export default {
 }
 .p2 {
   margin-top: 20px;
-  font-size: 50px;
+  font-size: 40px;
   text-decoration: underline;
   color: rgb(163, 238, 238);
 }
