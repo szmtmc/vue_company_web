@@ -23,7 +23,7 @@ export default {
       list: [{
         id: 1,
         h5: '广东·广州',
-        p1: '13802760156',
+        p1: '020-62308823',
         p2: '广州市黄埔区永和经济技术开发区斗塘路22号',
         url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/contact-1.jpg'
       }, {
@@ -35,7 +35,7 @@ export default {
       }, {
         id: 3,
         h5: '广东·佛山',
-        p1: '15815864696',
+        p1: '0757-83905065',
         p2: '佛山市禅城区港口路2号首层P8号',
         url: 'https://szsz12.oss-cn-beijing.aliyuncs.com/contact-3.jpg'
       }]

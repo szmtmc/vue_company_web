@@ -16,7 +16,7 @@
           </ul>-->
         </div>
         <div class="box">
-          <img src="../../assets/image/solution-1.jpg" alt srcset />
+          <img :src="item.url" alt srcset />
         </div>
       </div>
     </div>
