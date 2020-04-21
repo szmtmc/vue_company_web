@@ -1,6 +1,9 @@
-# yuanchin
+# company_web
 
 > A Vue.js project
+> 这是一个使用了Vue+CSS3的个人开源项目,最开始是为了制作公司的官网,后来官网使用了别的技术栈完成,所以将此项目开源。预览地址在 [Vue官网](http://bt.soaz.xyz/) ,使用了mock数据对图片和文本进行获取.
+>
+> CSS+Vue+Vue Router+axios+...
 
 ## Build Setup
 
