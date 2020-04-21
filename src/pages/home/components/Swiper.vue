@@ -1,7 +1,7 @@
 <template>
   <div class="banner-wrap">
     <div class="wrapper">
-      <swiper :options="swiperOptions">
+      <swiper :options="swiperOptions" v-if="list.length">
         <swiper-slide v-for="item in list" :key="item.id">
           <div class="imgwrapepr">
             <div class="banner-info">
@@ -19,6 +19,8 @@
 
 <script>
 // swiper options example:
+import axios from 'axios'
+import url from '../../../modules/api.js'
 export default {
   name: 'HomeSwiper',
   data () {
@@ -28,20 +30,13 @@ export default {
         pagination: '.swiper-pagination',
         autoplay: 4000
       },
-      list: [{
-        id: 1,
-        h1: '构建战略级科技服务的生态系统',
-        url: 'http://img.baitton.com/slide-1.jpg'
-      }, {
-        id: 2,
-        h1: '成功源于共享 创新成就未来',
-        url: 'http://img.baitton.com/slide-2.jpg'
-      }, {
-        id: 3,
-        h1: '拓知共行 服务至上',
-        url: 'http://img.baitton.com/slide-3.jpg'
-      }]
+      list: []
     }
+  },
+  mounted () {
+    axios.get(url.bannerLists).then(res => {
+      this.list = res.data.img
+    })
   }
 }
 </script>

@@ -16,10 +16,10 @@ export default {
   data () {
     return {
       styleObj: '',
-      styleObj1: { backgroundImage: 'url(http://img.baitton.com/solutions-subtitle-bg.jpg)' },
-      styleObj2: { backgroundImage: 'url(http://img.baitton.com/about-subtitle-bg.jpg)' },
-      styleObj3: { backgroundImage: 'url(http://img.baitton.com/jobs-subtitle-bg.jpg)' },
-      styleObj4: { backgroundImage: 'url(http://img.baitton.com/contact-subtitle-bg.jpg)' }
+      styleObj1: { backgroundImage: 'url(http://dummyimage.com/1851x500/f2b479)' },
+      styleObj2: { backgroundImage: 'url(http://dummyimage.com/1851x500/9179f2)' },
+      styleObj3: { backgroundImage: 'url(http://dummyimage.com/1851x500/84f279)' },
+      styleObj4: { backgroundImage: 'url(http://dummyimage.com/1851x500/f279a7)' }
     }
   },
   mounted () {

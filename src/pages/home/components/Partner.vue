@@ -10,66 +10,19 @@
   </div>
 </template>
 <script>
+import axios from 'axios'
+import url from '../../../modules/api.js'
 export default {
   name: 'Partner',
   data () {
     return {
-      list: [{
-        id: 1,
-        url: 'http://img.baitton.com/logo-1.jpg'
-      }, {
-        id: 2,
-        url: 'http://img.baitton.com/logo-2.jpg'
-      }, {
-        id: 3,
-        url: 'http://img.baitton.com/logo-3.jpg'
-      }, {
-        id: 4,
-        url: 'http://img.baitton.com/logo-4.jpg'
-      }, {
-        id: 5,
-        url: 'http://img.baitton.com/logo-5.jpg'
-      }, {
-        id: 6,
-        url: 'http://img.baitton.com/logo-6.jpg'
-      }, {
-        id: 7,
-        url: 'http://img.baitton.com/logo-7.jpg'
-      }, {
-        id: 8,
-        url: 'http://img.baitton.com/logo-8.jpg'
-      }, {
-        id: 9,
-        url: 'http://img.baitton.com/logo-9.jpg'
-      }, {
-        id: 10,
-        url: 'http://img.baitton.com/logo-10.jpg'
-      }, {
-        id: 11,
-        url: 'http://img.baitton.com/logo-11.jpg'
-      }, {
-        id: 12,
-        url: 'http://img.baitton.com/logo-12.jpg'
-      }, {
-        id: 13,
-        url: 'http://img.baitton.com/logo-13.jpg'
-      }, {
-        id: 14,
-        url: 'http://img.baitton.com/logo-14.jpg'
-      }, {
-        id: 15,
-        url: 'http://img.baitton.com/logo-15.jpg'
-      }, {
-        id: 16,
-        url: 'http://img.baitton.com/logo-16.jpg'
-      }, {
-        id: 17,
-        url: 'http://img.baitton.com/logo-17.jpg'
-      }, {
-        id: 18,
-        url: 'http://img.baitton.com/logo-18.jpg'
-      }]
+      list: []
     }
+  },
+  mounted () {
+    axios.get(url.partnerList).then(res => {
+      this.list = res.data.list
+    })
   }
 }
 </script>
@@ -89,6 +42,7 @@ export default {
 }
 .row {
   width: 1175px;
+  padding-top: 10px;
   margin: 0 auto;
   display: -ms-flexbox;
   display: flex;

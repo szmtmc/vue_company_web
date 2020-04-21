@@ -4,35 +4,27 @@
       <div class="card border-0 rounded-0" v-for="item in list" :key="item.id">
         <img class="w-100" :src="item.url" />
         <div class="card-body text-center py-5">
-          <h5 class="card-title font-weight-bold">{{item.h5}}</h5>
-          <p class="card-text">{{item.p}}</p>
+          <h5 class="card-title font-weight-bold">{{item.p}}</h5>
+          <p class="card-text">{{item.p1}}</p>
         </div>
       </div>
     </div>
   </div>
 </template>
 <script>
+import axios from 'axios'
+import url from '../../../modules/api.js'
 export default {
   name: 'Product',
   data () {
     return {
-      list: [{
-        id: 1,
-        h5: '专利代理人',
-        p: '热爱知识产权行业，具有良好的沟通协调能力以及团队合作精神',
-        url: 'http://img.baitton.com/careers-jobs-1.png'
-      }, {
-        id: 2,
-        h5: '商务助理',
-        p: '维护与合作伙伴间的良好关系以及建立持久联系，不断拓宽现有合作渠道，丰富业务内容',
-        url: 'http://img.baitton.com/careers-jobs-2.png'
-      }, {
-        id: 3,
-        h5: '项目申报员',
-        p: '协调并整合公司资源，参与项目的立项、申报、审批、验收工作',
-        url: 'http://img.baitton.com/careers-jobs-3.png'
-      }]
+      list: []
     }
+  },
+  mounted () {
+    axios.get(url.contactList).then(res => {
+      this.list = res.data.list
+    })
   }
 }
 </script>

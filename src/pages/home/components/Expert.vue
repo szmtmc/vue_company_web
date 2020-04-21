@@ -10,36 +10,19 @@
   </div>
 </template>
 <script>
+import axios from 'axios'
+import url from '../../../modules/api.js'
 export default {
   name: 'Partner',
   data () {
     return {
-      list: [{
-        id: 1,
-        url: 'http://img.baitton.com/zjzk-1.jpg'
-      }, {
-        id: 2,
-        url: 'http://img.baitton.com/zjzk-2.jpg'
-      }, {
-        id: 3,
-        url: 'http://img.baitton.com/zjzk-3.jpg'
-      }, {
-        id: 4,
-        url: 'http://img.baitton.com/zjzk-4.jpg'
-      }, {
-        id: 5,
-        url: 'http://img.baitton.com/zjzk-5.jpg'
-      }, {
-        id: 6,
-        url: 'http://img.baitton.com/zjzk-6.jpg'
-      }, {
-        id: 7,
-        url: 'http://img.baitton.com/zjzk-7.jpg'
-      }, {
-        id: 8,
-        url: 'http://img.baitton.com/zjzk-8.jpg'
-      }]
+      list: []
     }
+  },
+  mounted () {
+    axios.get(url.expertList).then(res => {
+      this.list = res.data.list
+    })
   }
 }
 </script>
@@ -69,7 +52,8 @@ export default {
 img {
   width: 240px;
   height: 240px;
-  padding: 30px 30px 0 10px;
+  border-radius: 50%;
+  margin: 30px 30px 0 10px;
 }
 @media screen and (max-width: 1175px) {
   .row {

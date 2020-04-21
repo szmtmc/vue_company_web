@@ -2,14 +2,14 @@
   <div class="container">
     <div class="inner">
       <h2>
-       加入<strong>百拓BAITTON<sup>®</sup></strong>
+       加入<strong>公司COMPANY<sup>®</sup></strong>
       </h2>
       <hr />
-      <p>{{$t('lang.joinp')}}</p>
+      <p>互联网已成为这个时代的基础设施，利用不断演进的技术，让我们一起构建更加光辉灿烂的未来.</p>
       <p>
-        <a href="https://jobs.51job.com/guangzhou-hpq/co4762896.html" target="_blank" class="submit">{{$t('lang.submit')}}</a>
+        <a href="https://jobs.51job.com/" target="_blank" class="submit">投递简历</a>
       </p>
-      <p class="small">为便于检索，请按统一格式填写邮件标题：职位-姓名，如：商务助理-张百拓</p>
+      <p class="small">为便于检索，请按统一格式填写邮件标题：职位-姓名，如：AAA-张三</p>
     </div>
   </div>
 </template>
@@ -20,7 +20,7 @@ export default {
 </script>
 <style scoped>
 .container {
-  background-image: url("http://img.baitton.com/office.jpg");
+  background-image: url("http://dummyimage.com/1980x500/79aff2");
   background-position: top center;
   background-size: cover;
   background-attachment: fixed;

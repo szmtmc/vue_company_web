@@ -3,18 +3,18 @@
     <div class="main clear">
       <div class="main-inner">
         <h2>
-          <strong>百拓BAITTON</strong>
+          <strong>公司COMPANY</strong>
         </h2>
         <p class="text-muted">成功源于共享，创新成就未来</p>
         <hr />
         <p>
-          <strong>广州百拓共享科技应用股份有限公司</strong>
-          于2013年7月成立，是一家旨在企事业单位、政府机构、科研院校及各行各业专家之间构建全周期、全生态链的科技服务体 系的服务运营机构。面向各行业的企事业单位及政府客户，我 们的服务包括科技信息资源、科技项目管理及创新成果、科技咨询、知识产权、科技金融、创业孵化、财税顾问及职业教育培训等。
+          <strong>公司COMPANY</strong>
+          于2099年13月成立，是一家公司COMPANY公司COMPANY公司COMPANY公司COMPANY公司COMPANY公司COMPANY公司COMPANY公司COMPANY公司COMPANY公司COMPANY公司COMPANY公司COMPANY公司COMPANY公司COMPANY公司COMPANY。
         </p>
-        <p>以“构建战略级科技创新服务生态系统”为使命，秉承 “拓知共行、服务至上”的服务理念及最专业的服务态度，我们用六年的时间着力打造了一条企业从孵化期到成熟期的全生 态科技服务产业链。我们将用最专业的服务为客户提供成长动力，实现合作共赢。</p>
+        <p>以“构建战略级科技创新服务生态系统”为使命，公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍公司介绍</p>
       </div>
       <div class="box">
-        <img src="http://img.baitton.com/office.jpg" />
+        <img src="http://dummyimage.com/450x490/79aff2" />
       </div>
     </div>
   </div>

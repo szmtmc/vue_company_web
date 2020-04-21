@@ -6,10 +6,10 @@
           <h2>
             <strong>{{item.h2}}</strong>
           </h2>
-          <p class="text-muted">{{item.p1}}</p>
+          <p class="text-muted">{{item.p}}</p>
           <hr />
-          <p>{{item.p2_1}}</p>
-          <p>{{item.p2_2}}</p>
+          <p>{{item.p2}}</p>
+          <p>{{item.p3}}</p>
           <!-- <h3>服务特点</h3>
           <ul class="pl-3">
             <li v-for="(li,index) in item.li" :key="index">{{li}}</li>
