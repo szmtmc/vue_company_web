@@ -18,7 +18,7 @@ export default {
     return {
       list: [{
         id: 1,
-        h5: '专利代理',
+        h5: '专利代理人',
         p: '规范的流程，轻松的氛围，跟团队一起成长为更专业的专利代理人',
         url: 'http://img.baitton.com/careers-jobs-1.png'
       }, {
@@ -28,8 +28,8 @@ export default {
         url: 'http://img.baitton.com/careers-jobs-2.png'
       }, {
         id: 3,
-        h5: '实习岗位',
-        p: '实习结束后，我们就是朋友啦:)',
+        h5: '项目申报员',
+        p: '协调并整合公司资源，参与项目的立项、申报、审批、验收工作',
         url: 'http://img.baitton.com/careers-jobs-3.png'
       }]
     }
