@@ -7,7 +7,7 @@
       <hr />
       <p>{{$t('lang.joinp')}}</p>
       <p>
-        <a href="mailto:baituogx@126.com" class="submit">{{$t('lang.submit')}}</a>
+        <a href="https://jobs.51job.com/guangzhou-hpq/co4762896.html" target="_blank" class="submit">{{$t('lang.submit')}}</a>
       </p>
       <p class="small">为便于检索，请按统一格式填写邮件标题：职位-姓名，如：商务助理-张百拓</p>
     </div>

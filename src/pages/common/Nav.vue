@@ -8,10 +8,10 @@
         </a>
         <ul class="menu clear">
           <router-link tag="li" to="/" :class="{fff:navindex===0}">首页</router-link>
-          <router-link tag="li" to="/business" :class="{fff:navindex===1}">{{$t('lang.solution')}}</router-link>
-          <router-link tag="li" to="/about" :class="{fff:navindex===2}">{{$t('lang.about')}}</router-link>
-          <router-link tag="li" to="/join" :class="{fff:navindex===3}">{{$t('lang.join')}}</router-link>
-          <router-link tag="li" to="/contact" :class="{fff:navindex===4}">{{$t('lang.contact')}}</router-link>
+          <router-link tag="li" to="/business" :class="{fff:navindex===1}">业务&服务</router-link>
+          <router-link tag="li" to="/about" :class="{fff:navindex===2}">关于百拓</router-link>
+          <router-link tag="li" to="/join" :class="{fff:navindex===3}">加入我们</router-link>
+          <router-link tag="li" to="/contact" :class="{fff:navindex===4}">联系我们</router-link>
         </ul>
         <span class="more" @click="downmenuClick()">
           <div class="icon-twrap" p-id="599">
@@ -35,10 +35,10 @@
     <nav class="nav-down" v-show="downmenuShow">
       <ul class="downmenu clear">
         <router-link tag="li" to="/" :class="{fff:navindex===0}">首页</router-link>
-        <router-link tag="li" to="/business" :class="{fff:navindex===1}">{{$t('lang.solution')}}</router-link>
-        <router-link tag="li" to="/about" :class="{fff:navindex===2}">{{$t('lang.about')}}</router-link>
-        <router-link tag="li" to="/join" :class="{fff:navindex===3}">{{$t('lang.join')}}</router-link>
-        <router-link tag="li" to="/contact" :class="{fff:navindex===4}">{{$t('lang.contact')}}</router-link>
+        <router-link tag="li" to="/business" :class="{fff:navindex===1}">业务&服务</router-link>
+        <router-link tag="li" to="/about" :class="{fff:navindex===2}">关于百拓</router-link>
+        <router-link tag="li" to="/join" :class="{fff:navindex===3}">加入我们</router-link>
+        <router-link tag="li" to="/contact" :class="{fff:navindex===4}">联系我们</router-link>
       </ul>
     </nav>
   </div>
@@ -59,12 +59,12 @@ export default {
   },
   mounted () {
   },
-  created () {
-    window.addEventListener('scroll', this.handleScroll)
-  },
-  destroyed () {
-    window.removeEventListener('scroll', this.handleScroll)
-  },
+  // created () {
+  //   window.addEventListener('scroll', this.handleScroll)
+  // },
+  // destroyed () {
+  //   window.removeEventListener('scroll', this.handleScroll)
+  // },
   methods: {
     downmenuClick () {
       this.downmenuShow = !this.downmenuShow
