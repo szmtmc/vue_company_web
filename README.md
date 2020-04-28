@@ -24,4 +24,4 @@ npm run build --report
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 
-## 只使用了Vue版本的浏览[Vue_company_web](https://github.com/shaozhun/vue_company_web)
+## 只使用了Nuxt版本的浏览[Nuxt_company_web](https://github.com/shaozhun/nuxt_company_web)
