@@ -5,10 +5,10 @@
         <swiper-slide v-for="item in list" :key="item.id">
           <div class="imgwrapepr">
             <div class="banner-info">
-              <h1>{{item.h1}}</h1>
+              <h1>{{item.title}}</h1>
               <!-- <p>{{$t('lang.slide1p')}}</p> -->
             </div>
-            <img class="bannerimg" :src="item.url" />
+            <img class="bannerimg" :src="item.src" />
           </div>
         </swiper-slide>
         <div class="swiper-pagination" slot="pagination"></div>
@@ -34,8 +34,8 @@ export default {
     }
   },
   mounted () {
-    axios.get(url.bannerLists).then(res => {
-      this.list = res.data.img
+    axios.get(url.swiperLists).then(res => {
+      this.list = res.data.data.data
     })
   }
 }

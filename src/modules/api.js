@@ -1,5 +1,5 @@
 let url = {
-  bannerLists: '/bannerimg',
+  swiperLists: '/swiperList',
   productLists: '/productList',
   partnerList: '/partnerList',
   expertList: '/expertList',
@@ -8,7 +8,7 @@ let url = {
 }
 
 // 开发环境和生产环境的切换
-let host = 'http://rap2.taobao.org:38080/app/mock/247553'
+let host = 'http://localhost:5277/web'
 
 for (let key in url) {
   if (url.hasOwnProperty(key)) {
